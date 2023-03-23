@@ -1,3 +1,4 @@
+// Functnional reference requirements
 const express = require('express');
 const path = require('path');
 const { clog } = require('./middleware/clog.js');
@@ -15,6 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/api', api);
 
+// Return static files in the public folder
 app.use(express.static('public'));
 
 // GET Route for homepage
@@ -34,5 +36,5 @@ app.get('*', (req, res) =>
 );
 
 app.listen(PORT, () =>
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
+  console.log(`App listening at http://localhost:${PORT} ✅`)
 );

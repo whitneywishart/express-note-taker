@@ -41,7 +41,7 @@ notes.delete('/:note_id', (req, res) => {
     });
 });
 
-// POST Route for a new UX/UI tip
+// POST Route for a new UX/UI note
 notes.post('/', (req, res) => {
   console.log(req.body);
 
@@ -57,7 +57,7 @@ notes.post('/', (req, res) => {
     readAndAppend(newNote, './db/db.json');
     res.json(`Note added successfully 👍`);
   } else {
-    res.error('Error in adding note');
+    res.error('Error while adding note');
   }
 });
 
