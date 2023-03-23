@@ -7,12 +7,12 @@ This Note Taker application receives, stores and allows deletion of notes entere
 ## Screenshot
 <img src='./public/assets/images/screenshot.png' width="650">
 
-<br><br>
+<br>
 
 ## Deployed Application on Heroku
 [Express Note Taker on Heroku](#)
 
-<br><br>
+<br>
 
 ## GitHub Repo
 [Express Note Taker Repo](https://github.com/whitneywishart/express-note-taker)
