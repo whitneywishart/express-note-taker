@@ -1,1 +1,2 @@
-# Note Taker Starter Code
+# Express.js Note Taker
+## Description
