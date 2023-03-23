@@ -1,1 +1,27 @@
-[]
+[
+    {
+        "title": "First note",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est diam, tincidunt in scelerisque porta, congue sit amet velit. Donec lobortis eros vitae nisl tincidunt fermentum.",
+        "id": "af923522-7391-4620-977c-3320fde66cb9"
+    },
+    {
+        "title": "Second note",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est diam, tincidunt in scelerisque porta, congue sit amet velit. Donec lobortis eros vitae nisl tincidunt fermentum.",
+        "id": "adda7d8d-ef7d-4f54-8968-3921044131db"
+    },
+    {
+        "title": "Third note",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est diam, tincidunt in scelerisque porta, congue sit amet velit. Donec lobortis eros vitae nisl tincidunt fermentum.",
+        "id": "2fc8cfd9-5faf-491e-9740-e12f74fceb7a"
+    },
+    {
+        "title": "Fourth note",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est diam, tincidunt in scelerisque porta, congue sit amet velit. Donec lobortis eros vitae nisl tincidunt fermentum.",
+        "id": "5434a420-0dcc-4e09-b3fd-27e84b6c0ca9"
+    },
+    {
+        "title": "Fifth note",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce est diam, tincidunt in scelerisque porta, congue sit amet velit. Donec lobortis eros vitae nisl tincidunt fermentum.",
+        "id": "dd76bf59-bbb1-43ff-a37e-3a0a78b2cbbc"
+    }
+]
