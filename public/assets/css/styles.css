@@ -9,6 +9,7 @@ body {
   display: none;
 }
 
+
 .icons i {
   margin-left: 15px;
   margin-right: 15px;
@@ -75,4 +76,8 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+
+#four {
+  padding-top: 2rem;
 }

@@ -6,6 +6,7 @@ const {
   writeToFile,
 } = require('../helpers/fsUtils');
 
+
 // GET Route for retrieving all the notes
 notes.get('/', (req, res) => {
   readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
@@ -31,7 +32,7 @@ notes.delete('/:note_id', (req, res) => {
     .then((data) => JSON.parse(data))
     .then((json) => {
       // Make a new array of all notes except the one with the ID provided in the URL
-      const result = json.filter((note) => note.note_id !== noteId);
+      const result = json.filter((note) => note.id != noteId);
 
       // Save that array to the filesystem
       writeToFile('./db/db.json', result);
@@ -41,7 +42,7 @@ notes.delete('/:note_id', (req, res) => {
     });
 });
 
-// POST Route for a new UX/UI note
+// POST Route for a new note
 notes.post('/', (req, res) => {
   console.log(req.body);
 
