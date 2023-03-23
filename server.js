@@ -23,7 +23,7 @@ app.get('/', (req, res) =>
 );
 
 
-// GET Route for Get Started page
+// GET Route for notes page
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/pages/notes.html'))
 );
