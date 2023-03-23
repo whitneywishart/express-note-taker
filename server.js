@@ -1,8 +1,9 @@
-// Functnional reference requirements
+// Functional reference requirements
 const express = require('express');
 const path = require('path');
 const { clog } = require('./middleware/clog.js');
 const api = require('./routes/index.js');
+const fs = require('fs');
 
 const PORT = process.env.PORT || 3001;
 
