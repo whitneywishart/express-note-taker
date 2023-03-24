@@ -39,6 +39,7 @@ notes.delete('/:note_id', (req, res) => {
 
       // Respond to the DELETE request
       res.json(`Item ${noteId} has been deleted 🗑️`);
+
     });
 });
 
