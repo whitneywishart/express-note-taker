@@ -10,7 +10,7 @@ This Note Taker application receives, stores and allows deletion of notes entere
 <br>
 
 ## Deployed Application on Heroku
-[Express Note Taker on Heroku](https://whitneywishart-express-note-taker.herokuapp.com/)
+[Express Note Taker on Heroku](https://wishart-express-note-taker.herokuapp.com/)
 
 <br>
 
